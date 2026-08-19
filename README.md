@@ -85,3 +85,4 @@ Happy Coding! 🚀
     - VPC : default
     - SG: open port 8080, 9090
     - Advance settings: IAM role which has privileges(administrator access).
+    - In user data script we are configuring to install required tools. follow this [doc](https://github.com/SeshadriRC/End-to-End-Kubernetes-Three-Tier-DevSecOps-Project/blob/master/Jenkins-Server-TF/tools-install.sh)
