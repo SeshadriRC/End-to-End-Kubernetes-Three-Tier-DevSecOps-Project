@@ -58,3 +58,30 @@ We welcome contributions! If you have ideas for enhancements or find any issues,
 This project is licensed under the [MIT License](LICENSE).
 
 Happy Coding! 🚀
+
+---
+
+# Learned from this project
+
+## What is MERN stack
+
+- MongoDB, ExpressJs, ReactJS, NodeJS. All are javascript based languages.
+
+<img width="1158" height="485" alt="image" src="https://github.com/user-attachments/assets/59ae2e36-ee32-46de-959a-360dbfa8ce6a" />
+
+
+<img width="1262" height="574" alt="image" src="https://github.com/user-attachments/assets/039fca08-f2ab-4b08-b78e-89ea99294359" />
+
+- In Application-code directory , you can find the Dockerfile for both frontend and backend. For mongoDB we will be using mongoDB docker image.
+- Below is the sample application.
+
+<img width="1293" height="591" alt="image" src="https://github.com/user-attachments/assets/f147df2c-7052-40b0-9151-fc448aa55b16" />
+
+---
+
+## Part-1
+
+- Provision AWS EC2 `t2.2x large`, we are going to run jenkins and sonar here
+    - VPC : default
+    - SG: open port 8080, 9090
+    - Advance settings: IAM role which has privileges(administrator access).
